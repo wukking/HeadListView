@@ -25,3 +25,6 @@ View headerView = View.inflate(this,R.layout.layout_head,null);
 ImageView imageView = (ImageView) headerView.findViewById(R.id.imageView);
 
 6.消除ListView滑到顶部或者底部的阴影（plistView.setOverScrollMode(ListView.OVER_SCROLL_NEVER);）；
+
+
+更具体请看代码

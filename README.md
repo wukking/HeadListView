@@ -15,7 +15,8 @@
       orignalHeight = imageView.getHeight();        //imageVIew高度
       int drawableHeight = imageView.getDrawable().getIntrinsicHeight();//图片的高度
       maxHeight = orignalHeight>drawableHeight?orignalHeight*2:drawableHeight;
-  }```
+  }
+```
   
 4.在重写的overScrollBy（）中操作放大图片；
 

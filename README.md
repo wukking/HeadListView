@@ -8,7 +8,8 @@
 
 3.用全局监听获取imageView的高度和图片的高度；
 
-```imageView.getViewTreeObserver().addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
+```
+imageView.getViewTreeObserver().addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
   @Override
     public void onGlobalLayout() {
       imageView.getViewTreeObserver().removeGlobalOnLayoutListener(this);
